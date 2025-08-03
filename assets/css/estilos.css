@@ -1,0 +1,231 @@
+/* Estilos da minha página web */
+
+/* Reset básico: remove margens e preenchimentos padrão de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define a fonte usada na página */
+    color: white;
+    /* Define a cor do texto como branca */
+}
+
+/* ------------------------------------------------------- */
+/* Estilos gerais reutilizáveis */
+
+.text-center {
+    text-align: center;
+    /* Centraliza o conteúdo horizontalmente */
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+    /* Adiciona margem superior de 40px */
+}
+
+/* ------------------------------------------------------- */
+/* --- Cabeçalho --- */
+
+.container-cabecalho {
+    text-align: center;
+    /* Centraliza o conteúdo do cabeçalho */
+    padding: 20px;
+    /* Adiciona espaçamento interno de 20px */
+    background-color: #04233f;
+    /* Define a cor de fundo do cabeçalho */
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    /* Define peso da fonte (semi-negrito) */
+    font-size: 2em;
+    /* Aumenta o tamanho da fonte */
+    color: #1190ff;
+    /* Define cor azul vibrante para o texto do título */
+}
+
+/* ------------------------------------------------------- */
+/* --- Navegação --- */
+
+.container-navegacao {
+    text-align: center;
+    /* Centraliza os itens de navegação */
+    padding: 20px;
+    /* Adiciona espaçamento interno */
+    background-color: #06345d;
+    /* Cor de fundo da área de navegação */
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    /* Aumenta o tamanho do texto dos links */
+    margin: 0px 50px;
+    /* Espaçamento horizontal entre os links */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: #7cc2ff;
+    /* Define cor azul clara para os links */
+}
+
+.container-navegacao a:hover {
+    color: #fff;
+    /* Muda a cor do link para branco ao passar o mouse */
+}
+
+/* ------------------------------------------------------- */
+/* --- Seção "Quem Somos" --- */
+
+.container-quem-somos {
+    background-color: #05192a;
+    /* Define a cor de fundo escura para a seção */
+    overflow: auto;
+    /* Garante que o conteúdo interno respeite os limites da div */
+}
+
+/* Bloco de serviço dentro da seção "Quem Somos" */
+.container-quem-somos .servico {
+    /* float: center; ❌ valor inválido, por isso REMOVIDO */
+
+    margin: 60px auto;
+    /* Centraliza horizontalmente e adiciona margem vertical */
+    background-color: #061f35;
+    /* Fundo azul escuro */
+    width: 50%;
+    /* Largura do bloco */
+    padding: 50px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    text-align: center;
+    /* Texto centralizado */
+}
+
+.container-quem-somos .servico .icone {
+    padding-bottom: 10px;
+}
+
+.container-quem-somos .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #81c4ff;
+}
+
+.container-quem-somos .servicos-texto-realce {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*-----------------Contatos---------------------------*/
+.container-servicos-contatos {
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+
+}
+
+
+.container-servicos-contatos .botoes-servicos-contatos {
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos-contatos a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: #fff;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes-servicos-contatos a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*----------------Container Serviços-------------*/
+.container-servicos {
+    background-color: #05192a;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-servicos h3 {
+
+    color: #2097ff;
+    padding: 20px 0;
+
+}
+
+.container-servicos article {
+    width: 40%;
+    margin: auto;
+}
+
+.container-servicos li {
+
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+
+/*------Contatos--------------------*/
+.container-contatos {
+    background-color: #05192a;
+    padding: 80px;
+}
+
+.container-contatos h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    background-color: #08253f;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: auto;
+
+}
+
+.container-contatos .contatos {
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 20px;
+}
+
+/*----------------Footer-----------------------*/
+footer {
+    text-align: center;
+    padding: 80px;
+    background-color: #02111f;
+}
