@@ -229,3 +229,68 @@ footer {
     padding: 80px;
     background-color: #02111f;
 }
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+
+    /* Reduz padding geral para caber melhor em telas pequenas */
+    .container-cabecalho,
+    .container-navegacao,
+    .container-quem-somos,
+    .container-servicos,
+    .container-contatos,
+    .container-servicos-contatos {
+        padding: 20px;
+    }
+
+    /* Navegação em coluna */
+    .container-navegacao a {
+        display: block;
+        margin: 10px 0;
+        font-size: 1.2em;
+    }
+
+    /* Serviços em largura total */
+    .container-quem-somos .servico,
+    .container-servicos article,
+    .container-contatos h3 {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    /* Reduz tamanho da fonte em títulos */
+    .container-servicos h1,
+    .container-contatos h1 {
+        font-size: 2em;
+    }
+
+    .container-servicos h3,
+    .container-contatos h3 {
+        font-size: 1.2em;
+    }
+
+    /* Botões ajustados */
+    .botoes-servicos-contatos a {
+        max-width: 100%;
+        padding: 15px 30px;
+        font-size: 1em;
+    }
+
+    /* Lista de serviços com menos margem */
+    .container-servicos li {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+
+    /* Links de contato maiores e centralizados */
+    .container-contatos .contatos {
+        font-size: 1.5em;
+    }
+
+    /* Rodapé ajustado */
+    footer {
+        padding: 40px;
+        font-size: 0.9em;
+    }
+}
